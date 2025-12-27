@@ -1,0 +1,14 @@
+.User-stories-posts-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-size: cover;
+  padding: 50px 150px 50px 150px;
+  background-color: #fafafa;
+}
+@media screen and (max-width: 767px) {
+  .User-stories-posts-container {
+    padding: 0px;
+  }
+}

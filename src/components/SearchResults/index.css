@@ -1,0 +1,201 @@
+.mobile-search-bar-container {
+  height: 80px;
+  width: 100%;
+  max-width: 767px;
+  padding: 26px 24px 26px 24px;
+}
+@media screen and (min-width: 768px) {
+  .mobile-search-bar-container {
+    display: none;
+  }
+}
+.search-bar-container {
+  height: 28px;
+  width: 280px;
+  display: flex;
+}
+.search-input {
+  width: 246px;
+  height: 28px;
+  background-color: #fafafa;
+  outline: none;
+  border: none;
+  border-top-left-radius: 5px;
+  padding: 5px;
+  border-bottom-left-radius: 5px;
+}
+.search-icon-btn {
+  background-color: #dbdbdb;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 28px;
+  width: 34px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.search-icon {
+  color: #989898;
+}
+.search-initial-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 760px;
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .search-initial-view-container {
+    height: 400px;
+    width: 100%;
+  }
+}
+.search-initial-image {
+  height: 36px;
+  width: 54px;
+}
+.search-initial-text {
+  color: #989898;
+  font-size: 20px;
+  font-weight: 400;
+}
+.search-results-loading-container {
+  height: 760px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .search-results-loading-container {
+    height: 400px;
+    width: 100%;
+  }
+}
+.search-result-failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 960px;
+  width: 100%;
+  background-color: transparent;
+  background-size: cover;
+}
+@media screen and (max-width: 767px) {
+  .search-result-failure-container {
+    width: 100%;
+    height: 480px;
+  }
+}
+.search-result-failure-image {
+  height: 274px;
+  width: 560px;
+}
+@media screen and (max-width: 767px) {
+  .search-result-failure-image {
+    height: 127px;
+    width: 260px;
+  }
+}
+.search-result-failure-text {
+  color: #262626;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .search-result-failure-text {
+    font-size: 16px;
+  }
+}
+.search-result-failure-try-again-btn {
+  width: 102px;
+  height: 32px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4094ef;
+  color: #ffffff;
+}
+
+.search-no-result-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 960px;
+  width: 100%;
+  background-color: transparent;
+  background-size: cover;
+}
+
+@media screen and (max-width: 767px) {
+  .search-no-result-container {
+    width: 100%;
+    height: 480px;
+  }
+}
+.search-no-result-image {
+  height: 409px;
+  width: 500px;
+}
+@media screen and (max-width: 767px) {
+  .search-no-result-image {
+    height: 210px;
+    width: 258px;
+  }
+}
+.search-no-result-heading {
+  font-size: 32px;
+  font-weight: 500;
+  color: #262626;
+}
+@media screen and (max-width: 767px) {
+  .search-no-result-heading {
+    font-size: 20px;
+  }
+}
+.search-no-result-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #989898;
+}
+.search-result-success-view-container {
+  display: flex;
+  flex-direction: column;
+  padding: 33px 200px 33px 200px;
+  background-color: #fafafa;
+  background-size: cover;
+}
+@media screen and (max-width: 767px) {
+  .search-result-success-view-container {
+    padding: 0px;
+    background-color: #ffffff;
+  }
+}
+.search-result-success-view-heading {
+  color: #262626;
+  font-size: 24px;
+  font-weight: 500;
+}
+@media screen and (max-width: 767px) {
+  .search-result-success-view-heading {
+    display: none;
+  }
+}
+.search-result-success-list-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px 0px #7b879429;
+  padding: 32px;
+  list-style-type: none;
+  border-radius: 16px;
+}
+@media screen and (max-width:767px){
+  .search-result-success-list-container{
+    box-shadow: none;
+    padding:none;
+  }
+}

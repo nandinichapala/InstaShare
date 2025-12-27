@@ -1,0 +1,315 @@
+.user-profile-main-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+  background-size: cover;
+}
+@media screen and (min-width: 1441px) and (max-width: 2560px) {
+  .user-profile-main-container {
+    height: 100vh;
+    width: 100vw;
+  }
+}
+
+.user-profile-loader-container {
+  background-color: transparent;
+  background-size: cover;
+  height: 960px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-profile-failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 960px;
+  width: 100%;
+  background-color: transparent;
+  background-size: cover;
+}
+@media screen and (max-width: 767px) {
+  .user-profile-failure-container {
+    width: 100%;
+    height: 480;
+  }
+}
+.user-profile-failure-image {
+  height: 274px;
+  width: 560px;
+}
+@media screen and (max-width: 767px) {
+  .user-profile-failure-image {
+    height: 127px;
+    width: 260px;
+  }
+}
+
+.user-profile-failure-text {
+  color: #262626;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .user-profile-failure-text {
+    font-size: 16px;
+  }
+}
+.failure-try-again-btn {
+  width: 102px;
+  height: 32px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4094ef;
+  color: #ffffff;
+}
+.user-profile-successview-container {
+  display: flex;
+  flex-direction: column;
+  padding: 33px 200px 33px 200px;
+  background-color: transparent;
+  background-size: cover;
+}
+
+@media screen and (max-width: 767px) {
+  .user-profile-successview-container {
+    padding: 0px;
+  }
+}
+.user-profile-image-details-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.user-profile-profile-pic {
+  height: 180px;
+  width: 180px;
+  border: none;
+  border-radius: 90px;
+}
+@media screen and (max-width: 767px) {
+  .user-profile-profile-pic {
+    height: 96px;
+    width: 96px;
+    margin-left: 24px;
+  }
+}
+.user-profile-info-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+@media screen and (max-width: 767px) {
+  .user-profile-info-container {
+    margin-left: 20px;
+  }
+}
+.user-profile-username {
+  color: #262626;
+  font-size: 32px;
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+@media screen and (max-width:767px){
+  .user-profile-username{
+    font-size: 16px;
+  }
+}
+
+.post-count-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.post-count-text-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 25px;
+}
+@media screen and (max-width: 767px) {
+  .post-count-text-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.post-count {
+  font-size: 16px;
+  color: black;
+  font-weight: 500;
+  margin-right: 8px;
+}
+@media screen and (max-width: 767px) {
+  .post-count {
+    margin-bottom: 0px;
+  }
+}
+
+.post-count-text {
+  color: #262626;
+  font-weight: 400;
+  font-size: 16px;
+}
+@media screen and (max-width: 767px) {
+  .post-count-text {
+    font-size: 12px;
+    margin-top: 0px;
+  }
+}
+.user-profile-userid {
+  font-size: 16px;
+  font-weight: 500;
+  color: #262626;
+  margin-top: 0px;
+}
+
+
+.user-profile-bio {
+  color: #262626;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0px;
+}
+@media screen and (max-width:767px){
+  .user-profile-bio{
+    font-size: 14px;
+  }
+}
+
+.user-profile-stories-list-container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding-left: 0px;
+}
+@media screen and (max-width: 767px) {
+  .user-profile-stories-list-container {
+    margin-left: 24px;
+  }
+}
+.user-profile-story-list-item-container {
+  height: 86px;
+  width: 86px;
+  border: 1px solid #dbdbdb;
+  border-radius: 50px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .user-profile-story-list-item-container {
+    height: 64px;
+    width: 64px;
+  }
+}
+.user-profile-story-inner-container {
+  height: 80px;
+  width: 80px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .user-profile-story-inner-container {
+    height: 56px;
+    width: 56px;
+  }
+}
+.user-profile-story-image {
+  height: 100%;
+  width: 100%;
+  border-radius: 50px;
+}
+.separate-line {
+  color: #c6c6c8;
+  width: 100%;
+}
+.posts-image-heading-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: centter;
+  margin-top: 20px;
+}
+@media screen and (max-width: 767px) {
+  .posts-image-heading-container {
+    margin-left: 24px;
+  }
+}
+.posts-icon {
+  height: 24px;
+  width: 24px;
+  margin-right: 10px;
+  background-color: transparent;
+}
+.posts-heading {
+  color: #262626;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 0px;
+}
+.user-profile-posts-list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0px;
+}
+.user-profile-posts-list-item-container {
+  height: 330px;
+  width: 330px;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 767px) {
+  .user-profile-posts-list-item-container {
+    height: 105px;
+    width: 105px;
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .user-profile-posts-list-item-container {
+    height: 133px;
+    width: 133px;
+    margin-bottom: 10px;
+  }
+}
+.user-profile-post-image {
+  height: 100%;
+  width: 100%;
+}
+.no-posts-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.camera-icon-container {
+  height: 86px;
+  width: 86px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #262626;
+  border-radius: 50px;
+}
+.camera-icon {
+  height: 48px;
+  width: 45px;
+}
+.no-posts-heading {
+  height: 32px;
+  font-weight: 300;
+  color: #262626;
+}

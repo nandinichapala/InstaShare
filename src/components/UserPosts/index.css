@@ -1,0 +1,56 @@
+.posts-loader-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dbdbdb;
+  background-color: transparent;
+  height: 886px;
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .loader-container {
+    border: 0px;
+  }
+}
+.home-posts-failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dbdbdb;
+  background-color: transparent;
+  height: 886px;
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .home-posts-failure-container {
+    border: 0px;
+  }
+}
+.failure-img {
+  height: 48px;
+  width: 48px;
+}
+.failure-text {
+  color: #262626;
+  font-size: 16px;
+  font-weight: 400;
+}
+.failure-retry-btn {
+  width: 102px;
+  height: 32px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4094ef;
+  color: #ffffff;
+}
+.post-list-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+  list-style-type: none;
+  background-color: transparent;
+  background-size: cover;
+  width: 100%;
+}

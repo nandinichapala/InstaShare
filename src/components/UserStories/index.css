@@ -1,0 +1,93 @@
+.slider-container {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 767px) {
+  .slider-container {
+    border-bottom: 1px solid #c6c6c8;
+    max-width: 767px;
+    padding: 0px 15px 0px 15px;
+  }
+}
+
+.stories-loader-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.failure-img {
+  height: 48px;
+  width: 48px;
+}
+.failure-text {
+  color: #262626;
+  font-size: 16px;
+  font-weight: 400;
+}
+.failure-retry-btn {
+  width: 102px;
+  height: 32px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4094ef;
+  color: #ffffff;
+}
+.slick-container {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .slick-container {
+    padding: 20px;
+  }
+}
+
+.slick-item-container {
+  height: 120px;
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.slick-item-image {
+  height: 70px;
+  width: 70px;
+  border-radius: 32px;
+}
+@media screen and (max-width: 767px) {
+  .slick-item-image {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+  }
+}
+.slick-item-name {
+  color: #262626;
+  font-size: 14px;
+  font-weight: 400;
+}
+@media screen and (max-width: 767px) {
+  .slick-item-name {
+    font-size: 10px;
+  }
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
