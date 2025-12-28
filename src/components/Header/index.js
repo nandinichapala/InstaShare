@@ -45,8 +45,9 @@ class Header extends Component {
       <>
         <div className="header-lg-container">
           <Link className="link-item" to="/">
-            <div
-              className="logo-title-container"
+            <button
+              type="button"
+              className="logo-title-btn-container"
               onClick={onChangeSearchModeOff}
             >
               <img
@@ -55,7 +56,7 @@ class Header extends Component {
                 alt="website logo"
               />
               <h1 className="header-title">Insta Share</h1>
-            </div>
+            </button>
           </Link>
           <div className="search-links-logout-btn-container">
             <ul className="search-links-list-container">
@@ -74,7 +75,6 @@ class Header extends Component {
                   <button
                     type="button"
                     className="search-icon-btn"
-                    testid="searchIcon"
                     onClick={getSearchResults}
                   >
                     <FaSearch className="search-icon" />
@@ -106,8 +106,9 @@ class Header extends Component {
         <div className="header-sm-container">
           <div className="logo-title-menuicon-container">
             <Link className="link-item" to="/">
-              <div
-                className="logo-title-container"
+              <button
+                type="button"
+                className="logo-title-btn-container"
                 onClick={onChangeSearchModeOff}
               >
                 <img
@@ -116,7 +117,7 @@ class Header extends Component {
                   alt="website logo"
                 />
                 <h1 className="header-title">Insta Share</h1>
-              </div>
+              </button>
             </Link>
             <button
               type="button"

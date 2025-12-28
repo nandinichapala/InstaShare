@@ -100,7 +100,6 @@ class UserStories extends Component {
         src="https://res.cloudinary.com/dpbd7fvio/image/upload/v1766728524/alert-trianglestoriesViewFailureImage_ktxj97.png"
         className="failure-img"
         alt="failure view"
-        role="img"
       />
       <p className="failure-text">Something went wrong. Please try again</p>
       <button
@@ -114,7 +113,7 @@ class UserStories extends Component {
   )
 
   renderLoadingView = () => (
-    <div className="stories-loader-container" testid="loader">
+    <div className="stories-loader-container">
       <Loader type="TailSpin" color="#4094EF" height={50} width={50} />
     </div>
   )

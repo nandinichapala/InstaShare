@@ -33,7 +33,6 @@ class Login extends Component {
           value={username}
           placeholder="Username"
           onChange={this.onChangeUsername}
-          role="textbox"
         />
       </>
     )
@@ -105,7 +104,6 @@ class Login extends Component {
             src="https://res.cloudinary.com/deaq38ckx/image/upload/v1765028320/logologinPageLogo_uxv0j9.jpg"
             className="login-form-logo"
             alt="website logo"
-            role="img"
           />
           <h1 className="login-form-heading">Insta Share</h1>
           <form className="login-form-container" onSubmit={this.onSubmitForm}>
@@ -116,7 +114,7 @@ class Login extends Component {
               {this.passwordInputDetails()}
             </div>
             {showErrorMsg && <p className="error-msg">{errorMsg}</p>}
-            <button type="submit" className="login-btn" role="button">
+            <button type="submit" className="login-btn">
               Login
             </button>
           </form>

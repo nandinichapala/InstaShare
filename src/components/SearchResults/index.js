@@ -18,6 +18,7 @@ class SearchResults extends Component {
       <img
         src="https://res.cloudinary.com/dpbd7fvio/image/upload/v1766580897/Frame_1473search-initial-img_yy9nnr.png"
         className="search-initial-image"
+        alt=""
       />
       <p className="search-initial-text">Search Results will be appear here</p>
     </div>
@@ -77,7 +78,7 @@ class SearchResults extends Component {
   )
 
   renderLoadingView = () => (
-    <div className="search-results-loading-container" testid="loader">
+    <div className="search-results-loading-container">
       <Loader type="TailSpin" color="#4094EF" height={50} width={50} />
     </div>
   )
@@ -115,7 +116,6 @@ class SearchResults extends Component {
             <button
               type="button"
               className="search-icon-btn"
-              testid="searchIcon"
               onClick={getSearchResults}
             >
               <FaSearch className="search-icon" />

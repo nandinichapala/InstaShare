@@ -113,8 +113,8 @@
   font-weight: 300;
   margin-bottom: 0px;
 }
-@media screen and (max-width:767px){
-  .user-profile-username{
+@media screen and (max-width: 767px) {
+  .user-profile-username {
     font-size: 16px;
   }
 }
@@ -168,15 +168,14 @@
   margin-top: 0px;
 }
 
-
 .user-profile-bio {
   color: #262626;
   font-size: 16px;
   font-weight: 400;
   margin-top: 0px;
 }
-@media screen and (max-width:767px){
-  .user-profile-bio{
+@media screen and (max-width: 767px) {
+  .user-profile-bio {
     font-size: 14px;
   }
 }

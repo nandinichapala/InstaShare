@@ -193,9 +193,9 @@
   list-style-type: none;
   border-radius: 16px;
 }
-@media screen and (max-width:767px){
-  .search-result-success-list-container{
+@media screen and (max-width: 767px) {
+  .search-result-success-list-container {
     box-shadow: none;
-    padding:none;
+    padding: none;
   }
 }

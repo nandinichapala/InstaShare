@@ -12,8 +12,8 @@
   width: 269px;
   height: 297px;
 }
-@media screen and (max-width:767px){
-  .not-found-image{
+@media screen and (max-width: 767px) {
+  .not-found-image {
     width: 157px;
     height: 173px;
   }
@@ -23,10 +23,10 @@
   font-weight: 500;
   color: #262626;
 }
-@media screen and (max-width:767px){
+@media screen and (max-width: 767px) {
   .not-found-heading {
-  font-size: 20px;
-}
+    font-size: 20px;
+  }
 }
 .not-found-description {
   font-size: 20px;
@@ -34,8 +34,8 @@
   color: #989898;
   text-align: center;
 }
-@media screen and (max-width:767px){
-  .not-found-description{
+@media screen and (max-width: 767px) {
+  .not-found-description {
     font-size: 16px;
   }
 }
@@ -51,7 +51,7 @@
   font-size: 14px;
   font-weight: 500;
 }
-@media screen and (max-width:767px){
+@media screen and (max-width: 767px) {
   .not-found-btn {
     height: 32px;
     width: 114px;

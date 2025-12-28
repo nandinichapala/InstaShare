@@ -183,8 +183,8 @@
   font-weight: 400;
   margin-top: 0px;
 }
-@media screen and (max-width:767px){
-  .myprofile-bio{
+@media screen and (max-width: 767px) {
+  .myprofile-bio {
     font-size: 14px;
   }
 }

@@ -67,7 +67,7 @@ class UserProfile extends Component {
   }
 
   renderLoadingView = () => (
-    <div className="user-profile-loader-container" testid="loader">
+    <div className="user-profile-loader-container">
       <Loader type="TailSpin" color="#4094EF" height={50} width={50} />
     </div>
   )
@@ -95,9 +95,7 @@ class UserProfile extends Component {
             alt="user profile"
           />
           <div className="user-profile-info-container">
-            <h1 className="user-profile-username" role="heading">
-              {userName}
-            </h1>
+            <h1 className="user-profile-username"> {userName} </h1>
             <div className="post-count-container">
               <div className="post-count-text-container">
                 <p className="post-count">{postsCount}</p>
